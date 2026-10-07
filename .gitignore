@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+
+# Vercel
+.vercel
+
+# Real statements and rosters must never be committed.
+# Only the invented files in sample-data/ are allowed.
+*.xlsx
+*.xls
+*.csv
+!sample-data/*.xlsx
+
+node_modules
+.DS_Store
+Thumbs.db
